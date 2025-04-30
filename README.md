@@ -74,3 +74,13 @@
 
 其他功能还在开发中，如果有想要的功能，可以在 [Issues](https://github.com/Zcentury/Venom/issues/new/choose) 进行提交
 
+
+
+<a href="https://star-history.com/#Zcentury/Venom&Date">
+
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Zcentury/Venom&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Zcentury/Venom&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Zcentury/Venom&type=Date" />
+ </picture>
+</a>
