@@ -1,8 +1,8 @@
 ---
 name: 功能需求
 about: 提交一个新的功能需求
-title: "[Feature Request] "
-labels: enhancement
+title: "title"
+labels: 功能需求
 assignees: ''
 
 ---
