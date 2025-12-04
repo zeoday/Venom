@@ -43,7 +43,7 @@
 ## 🛠️ 安装
 
 https://github.com/Zcentury/Venom/releases/latest 点击进入下载
-
+如果提示“Venom”已损坏，无法打开。你应该将它移到废纸篓。解决方法：`sudo xattr -dr com.apple.quarantine /Applications/Venom.app`
 ---
 
 ## 🎮 使用
@@ -168,3 +168,4 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Zcentury/Venom&type=Date" />
  </picture>
 </a>
+
