@@ -145,7 +145,7 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 ---
 
-## 🤝 贡献指南
+## 🤝 问题反馈
 
 如果出现以下几种情况，请 **积极** 联系作者反馈，或提交 Issue
 
@@ -203,5 +203,6 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Zcentury/Venom&type=Date" />
  </picture>
 </a>
+
 
 
