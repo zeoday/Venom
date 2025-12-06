@@ -209,14 +209,6 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 
 
-<a href="https://star-history.com/#Zcentury/Venom&Date">
-
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Zcentury/Venom&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Zcentury/Venom&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Zcentury/Venom&type=Date" />
- </picture>
-</a>
-
+[![Stargazers over time](https://starchart.cc/Zcentury/Venom.svg?variant=adaptive)](https://starchart.cc/Zcentury/Venom)
 
 
