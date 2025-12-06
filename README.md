@@ -56,6 +56,20 @@ https://github.com/Zcentury/Venom/releases/latest 点击进入下载
     sudo xattr -dr com.apple.quarantine /Applications/Venom.app
     ```
 
+2. 如果出现引擎无法自动下载情况
+
+    可以采用手动下载方式
+
+    引擎下载地址：https://github.com/Zcentury/Venom-Engine/releases/latest
+    
+    ### 引擎存放路径
+    
+      -   **Windows**: `C:\Users\{{username}}\AppData\Roaming\Venom\engine`
+    
+      -   **macOS**: `/Users/{{username}}/Library/Application Support/Venom/engine`
+    
+    然后将对应架构的引擎放入该目录，重新启动程序
+
 ---
 
 ## 🎮 使用
