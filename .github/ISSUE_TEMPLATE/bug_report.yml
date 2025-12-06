@@ -1,0 +1,45 @@
+name: 🐞 Bug 反馈
+description: 创建一个报告来帮助我们修复问题
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量填写详细信息，这有助于我们快速定位问题。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug 描述
+      description: 发生了什么错误？预期行为是什么？
+      placeholder: 请在此详细描述...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 如何重现这个 Bug？
+      placeholder: |
+        1. 点击 '...'
+        2. 输入 '...'
+        3. 看到错误 '...'
+    validations:
+      required: true
+
+  - type: input
+    id: env
+    attributes:
+      label: 环境信息
+      description: 操作系统 / 浏览器 / 软件版本
+      placeholder: e.g. Windows 10, Chrome 90, App v1.2.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 报错日志/截图
+      description: 如有报错截图或 Log，请粘贴在这里。
