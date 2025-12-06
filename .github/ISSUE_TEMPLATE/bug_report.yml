@@ -2,6 +2,8 @@ name: 🐞 Bug 反馈
 description: 创建一个报告来帮助我们修复问题
 title: "[Bug]: "
 labels: ["bug", "triage"]
+assignees: 
+  - Zcentury
 body:
   - type: markdown
     attributes:
@@ -33,8 +35,8 @@ body:
     id: env
     attributes:
       label: 环境信息
-      description: 操作系统 / 浏览器 / 软件版本
-      placeholder: e.g. Windows 10, Chrome 90, App v1.2.0
+      description: 操作系统 / 软件版本
+      placeholder: e.g. Windows 11 / macOS 13, Venom v1.2.0
     validations:
       required: true
 
