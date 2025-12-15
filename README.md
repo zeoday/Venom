@@ -35,7 +35,7 @@
 | 📱 小程序逆向 | 移动端安全   | 深度解析 Wxapkg 源码结构，自动化提取配置文件与敏感密钥，协助规避移动端信息泄露风险 。 |
 | 🕵️ 间影·特战版 | 发掘影子资产 | 专注于挖掘前端不可见却承载核心逻辑的“影子资产”，系统性评估隐藏接口的越权与逻辑漏洞 。 |
 | 🛠️ 武器库启动器 | 便捷工具管理 | 支持自定义集成第三方实战工具（如 jar包工具/Burp等），打造个性化的一站式渗透测试作战指挥台 。 |
-| 其他功能 |  | 待开发中，忘大家积极提供思路和想法 |
+| 其他功能 |  | 待开发中，望大家积极提供思路和想法 |
 
 
 ---
@@ -212,6 +212,7 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 
 [![Stargazers over time](https://starchart.cc/Zcentury/Venom.svg?variant=adaptive)](https://starchart.cc/Zcentury/Venom)
+
 
 
 
