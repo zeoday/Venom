@@ -143,6 +143,8 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 ![image-20251203212738231](images/image-20251203212738231.png)
 
+**可自定义解析规则**
+
 
 
 ### 场景五：🛠️ 武器库作战中控
@@ -210,5 +212,6 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 
 [![Stargazers over time](https://starchart.cc/Zcentury/Venom.svg?variant=adaptive)](https://starchart.cc/Zcentury/Venom)
+
 
 
