@@ -209,7 +209,15 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 **使用本工具即表示您同意遵守上述条款。如有违反，后果自负！**
 
+---
 
+## 🧸 交流群
+
+![qrcode](images/qrcode.png)
+
+---
+
+## 📈 Star 记录
 
 [![Stargazers over time](https://starchart.cc/Zcentury/Venom.svg?variant=adaptive)](https://starchart.cc/Zcentury/Venom)
 
