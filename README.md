@@ -213,7 +213,7 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 ## 🧸 交流群
 
-![qrcode](images/qrcode.png)
+![qrcode](images/qrcode.jpg)
 
 ---
 
